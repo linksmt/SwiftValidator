@@ -38,7 +38,7 @@ open class MinLengthRule: Rule {
      - returns: A boolean value. True if validation is successful; False if validation fails.
      */
     open func validate(_ value: String) -> Bool {
-        return value.characters.count >= DEFAULT_LENGTH
+        return value.count >= DEFAULT_LENGTH
     }
     
     /**
